@@ -56,8 +56,8 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
 
     private let allTicketIdentifiers: Set<String> = [
     "com.test.merlin",
-    "com.appcoda.storekitlocaldemo.spaghetti",
-    "com.appcoda.storekitlocaldemo.cake"]
+    "com.merlin.spaghetti",
+    "com.Merlin.cake"]
     
     private func fetchProducts(){
         let request = SKProductsRequest(productIdentifiers: allTicketIdentifiers)
